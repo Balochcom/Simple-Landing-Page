@@ -1,0 +1,149 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav img{
+    font-size: 17px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+ #btn1{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+
+}
+#btn2{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    border: none;
+    
+}
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+#main>img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);  
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);   
+}
+#img4 {
+    transform: translate(-50%, -50%); 
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+#bottom-line{
+    display: flex;
+    flex-direction: row;
+}
+#bottom-line>h5{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
+
+.ri-instagram-line{
+   
+    position: absolute;
+    right: 3%;
+    bottom: 9%;
+    font-size: 25px;
+    
+}
+.ri-youtube-line{
+    position: absolute;
+    right: 8%;
+    bottom: 9%;
+    font-size: 25px;
+}
+.ri-facebook-circle-line{
+    position: absolute;
+    right: 12.5%;
+    bottom: 9%;
+    font-size: 25px;
+}
+
+.ri-arrow-down-circle-line{
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    font-size: 50px;
+    
+}
